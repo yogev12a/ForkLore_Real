@@ -5,6 +5,208 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ADD8E6"
     tools:context=".AmericanPancakes">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="293dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="613dp"
+        android:background="@drawable/logo_bkg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/leavs" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="530dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="645dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_access_time_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="589dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chef_hat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="645dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="@string/prep_25_mins_cook_30_mins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="68dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Easy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="182dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="546dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="@string/nutrition_per_serving_kcal_356_fat_13g_carbs_46g"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="398dp"
+                android:layout_height="764dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/ingredients_n_200g_self_raising_flour_n_1_tsp_baking_powder_n_1_tbsp_golden_caster_sugar_n_3_large_eggs_n_25g_melted_butter_plus_extra_for_cooking_n_200ml_milk_n_vegetable_oil_for_cooking_n_to_serve_n_maple_syrup_n_toppings_of_your_choice_such_as_cooked_bacon_chocolate_chips_blueberries_or_peanut_butter_and_jam_n"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="67dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="243dp"
+                android:layout_marginEnd="323dp"
+                android:layout_marginBottom="322dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:singleLine="false"
+                android:text="Method"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.162" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="389dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="1dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/step_1_n_mix_200g_self_raising_flour_1_tsp_baking_powder_1_tbsp_golden_caster_sugar_and_a_pinch_of_salt_together_in_a_large_bowl_n_n_step_2_n_create_a_well_in_the_centre_with_the_back_of_your_spoon_then_add_3_large_eggs_25g_melted_butter_and_200ml_milk_n_n_step_3_n_whisk_together_either_with_a_balloon_whisk_or_electric_hand_beaters_until_smooth_then_pour_into_a_jug_n_n_step_4_n_heat_a_small_knob_of_butter_and_1_tsp_of_oil_in_a_large_non_stick_frying_pan_over_a_medium_heat_when_the_butter_looks_frothy_pour_in_rounds_of_the_batter_approximately_8cm_wide_make_sure_you_don_t_put_the_pancakes_too_close_together_as_they_will_spread_during_cooking_cook_the_pancakes_on_one_side_for_about_1_2_mins_or_until_lots_of_tiny_bubbles_start_to_appear_and_pop_on_the_surface_flip_the_pancakes_over_and_cook_for_a_further_minute_on_the_other_side_repeat_until_all_the_batter_is_used_up_n_n_step_5_n_serve_your_pancakes_stacked_up_on_a_plate_with_a_drizzle_of_maple_syrup_and_any_of_your_favourite_toppings"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="748dp"
+        android:onClick="OnMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="705dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="AmericanPancakes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

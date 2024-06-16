@@ -5,6 +5,230 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ADD8E6"
     tools:context=".Pasta">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="293dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="613dp"
+        android:background="@drawable/logo_bkg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/leavs" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="161dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="530dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        app:srcCompat="@drawable/img5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="645dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_access_time_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="589dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chef_hat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="645dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="prep: 5 mins           cook: 10 mins "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="68dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Easy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="182dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="546dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Nutriton:Per Serving           kcal:596  fat:32g  Protien:10g"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="398dp"
+                android:layout_height="764dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/penne_rigate_durum_wheat_pasta_500g_package_n_uf05aany_pasta_you_like_n_n_creamy_pesto_sauce_n_n_onion_medium_size_125g_n_uf05afinely_chopped_n_garlic_7_cloves_n_uf05a6_8_cloves_crushed_n_olive_oil_4_tablespoons_total_40ml_n_uf05afor_frying_n_salt_heaping_teaspoon_n_black_pepper_1_2_flat_teaspoon_n_uf05acrushed_n_dried_herb_mix_heaping_tablespoon_6g_n_garlic_powder_1_4_flat_teaspoon_total_1g_n_crushed_chili_1_4_flat_teaspoon_total_1g_n_basil_leaves_from_one_stem_2g_n_basil_and_nut_spread_glass_jar_180g_n_uf05aany_pesto_you_like_n_heavy_cream_38_carton_box_250ml_n_uf05aor_cooking_cream_n_mozzarella_cheese_2_handfuls_total_42g_n_uf05agrated_or_gouda_n_fresh_oregano_a_few_leaves_n"
+
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="67dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="243dp"
+                android:layout_marginEnd="323dp"
+                android:layout_marginBottom="322dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:singleLine="false"
+                android:text="Method"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.596" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="384dp"
+                android:layout_height="482dp"
+                android:layout_marginTop="520dp"
+                android:layout_marginEnd="7dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/_1_cook_the_pasta_according_to_the_manufacturer_s_instructions_n_2_fry_the_onion_in_olive_oil_in_a_saut_pan_until_lightly_golden_add_the_crushed_garlic_continue_frying_for_about_half_a_minute_then_add_all_the_spices_and_fresh_herbs_and_mix_slightly_n_3_add_the_pesto_and_heavy_cream_stir_add_the_mozzarella_cheese_stir_slightly_and_continue_cooking_over_medium_low_heat_for_another_7_10_minutes_stirring_occasionally_n_4_drain_the_pasta_add_it_to_the_sauce_pot_mix_well_and_serve_pasta_with_creamy_pesto_sauce_like_at_the_best_italian_restaurants_with_parmesan_shavings_on_top_n_5_enjoy_your_meal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="322dp"
+                android:layout_marginBottom="762dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.006" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="748dp"
+        android:onClick="OnMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="695dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Pasta Pesto"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

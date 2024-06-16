@@ -5,6 +5,213 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ADD8E6"
     tools:context=".Borgol">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="293dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="613dp"
+        android:background="@drawable/logo_bkg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/leavs" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="530dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="645dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_access_time_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="589dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chef_hat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="645dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="prep: 10 mins           cook: 40 mins "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="68dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="182dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="546dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Nutriton:Per Serving           kcal:429  fat:4g Protien:15g"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="398dp"
+                android:layout_height="764dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/Ingredients_n_1_1_cup_uncooked_bulgur_or_quinoa_n_1_15_ounce_can_chickpeas_drained_and_rinsed_n_english_cucumber_chopped_n_1_4_cup_red_onion_diced_n_1_2_cup_fresh_chopped_parsley_n_1_2_cup_fresh_mint_leaves_chopped_n_cup_fresh_dill_chopped_n_1_3_cup_feta_cheese_crumbles_n_1_3_cup_whole_shelled_pistachios_roasted_n_salt_and_freshly_ground_black_pepper_or_flake_salt_to_taste_n_dressing_n_1_4_cup_extra_virgin_olive_oil_n_1_large_lemon_zest_and_juice_n_1_4_teaspoon_ground_cumin_n_1_clove_garlic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="67dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="243dp"
+                android:layout_marginEnd="323dp"
+                android:layout_marginBottom="322dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:singleLine="false"
+                android:text="Method"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.328" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="357dp"
+                android:layout_height="271dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="1dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/combine_bulgur_and_2_cups_boiling_water_in_a_medium_bowl_set_aside_for_30_minutes_to_an_hour_or_until_water_has_been_absorbed_and_bulgur_is_tender_or_cook_quinoa_according_to_package_instructions_n_make_dressing_by_whisking_dressing_ingredients_in_a_bowl_once_bulgur_or_quinoa_has_cooled_pour_dressing_on_top_and_stir_to_combine_n_add_chickpeas_cucumber_onion_parsley_mint_dill_and_pistachios_and_stir_to_combine_top_with_feta_and_salt_and_pepper_to_taste_n_serve_cold_or_room_temperature_store_leftovers_in_the_fridge_and_enjoy_within_2_3_days"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.222" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="322dp"
+                android:layout_marginBottom="762dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="748dp"
+        android:onClick="OnMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
