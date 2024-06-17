@@ -21,7 +21,7 @@ public class PageMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_page_main);
-        ImageButton buttonB = findViewById(R.id.imageButton2);
+        ImageButton buttonB = findViewById(R.id.imageButton);
         buttonB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
